@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#2b6cb0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3182ce;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#2c5282;stop-opacity:0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <!-- Abstract foundation lines -->
+  <rect x="0" y="400" width="1200" height="200" fill="#2d3748" opacity="0.7"/>
+  <path d="M0 420 Q300 380 600 420 T1200 400" fill="none" stroke="#4a5568" stroke-width="8"/>
+  <path d="M0 460 Q400 430 800 460 T1200 450" fill="none" stroke="#718096" stroke-width="4"/>
+  <!-- Water drops stylized -->
+  <circle cx="200" cy="150" r="20" fill="#63b3ed" opacity="0.6"/>
+  <circle cx="250" cy="180" r="12" fill="#90cdf4" opacity="0.5"/>
+  <circle cx="900" cy="120" r="25" fill="#63b3ed" opacity="0.5"/>
+  <circle cx="950" cy="160" r="15" fill="#90cdf4" opacity="0.4"/>
+  <!-- Shield icon like protection -->
+  <path d="M600 80 L680 120 L680 220 Q680 280 600 320 Q520 280 520 220 L520 120 Z" fill="#ebf8ff" opacity="0.9"/>
+  <path d="M600 110 L650 140 L650 210 Q650 250 600 280 Q550 250 550 210 L550 140 Z" fill="#2b6cb0"/>
+  <text x="600" y="210" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="40" font-weight="bold">DRY</text>
+</svg>
