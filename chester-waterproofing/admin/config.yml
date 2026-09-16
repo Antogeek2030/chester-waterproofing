@@ -10,13 +10,14 @@ public_folder: /images/uploads
 collections:
   - name: blog
     label: Blog Posts
-    folder: chester-waterproofing/blog
+    label_singular: Blog Post
+    folder: chester-waterproofing/content/blog
     create: true
     slug: "{{slug}}"
-    extension: html
+    extension: md
     format: frontmatter
     fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Date, name: date, widget: datetime }
-      - { label: Description (SEO), name: description, widget: string }
-      - { label: Body, name: body, widget: markdown }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
