@@ -2,21 +2,4 @@ backend:
   name: github
   repo: Antogeek2030/chester-waterproofing
   branch: main
-  # We will add the base_url later after creating the Worker
-
-media_folder: chester-waterproofing/images/uploads
-public_folder: /images/uploads
-
-collections:
-  - name: "blog"
-    label: "Blog Posts"
-    folder: "chester-waterproofing/blog"
-    create: true
-    slug: "{{slug}}"
-    extension: "html"
-    format: "frontmatter"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Description (SEO)", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  base_url: https://sveltia-cms-auth.your-subdomain.workers.dev
