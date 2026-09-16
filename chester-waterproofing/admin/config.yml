@@ -3,3 +3,20 @@ backend:
   repo: Antogeek2030/chester-waterproofing
   branch: main
   base_url: https://sveltia-cms-auth.sveltia-cms-auth.okutoantony21.workers.dev
+
+media_folder: chester-waterproofing/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: blog
+    label: Blog Posts
+    folder: chester-waterproofing/blog
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime }
+      - { label: Description (SEO), name: description, widget: string }
+      - { label: Body, name: body, widget: markdown }
