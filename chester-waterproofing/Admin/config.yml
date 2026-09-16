@@ -1,5 +1,0 @@
-backend:
-  name: github
-  repo: Antogeek2030/chester-waterproofing
-  branch: main
-  base_url: https://sveltia-cms-auth.sveltia-cms-auth.okutoantony21.workers.dev
