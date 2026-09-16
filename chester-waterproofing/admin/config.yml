@@ -13,7 +13,7 @@ collections:
     folder: chester-waterproofing/blog
     create: true
     slug: "{{slug}}"
-    extension: md
+    extension: html
     format: frontmatter
     fields:
       - { label: Title, name: title, widget: string }
